@@ -1,0 +1,59 @@
+:root {
+    --main--color:#fff
+}
+body {
+    font-family:'open sans','sans-serif';
+}
+/*start home page */
+.Home-page{
+    min-height: 100vh;
+    background-image: url('../imgs/747506.jpg');
+    background-size: cover;
+    position: relative;
+
+}
+.Home-page.overlay{
+    background-color: black rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0 ;
+    top: 0;
+    z-index: 1;
+}
+.header-area{
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+
+}
+.header-area.logo{
+    width: 300px;
+    padding: 15%;
+    font-weight: bold;
+}
+.header-area.links{
+    list-style:none;
+    width: 100%;
+    text-align: right;
+    padding-left: 0%;
+    padding-right: 20%;
+    font-size: 15;
+}
+.header-area.links li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.header-area.links li a {
+    color:#fff;
+    text-decoration: none;
+    transition: .3s;
+}
+.header-area.links li a:hover 
+.header-area.links li a.Active {
+color: var(--main--color);
+}   
+
+/*End home page */
