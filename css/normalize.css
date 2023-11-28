@@ -212,8 +212,8 @@
   }
   
   /**
-   * Restore the focus styles unset by the previous rule.
-   */
+    * Restore the focus styles unset by the previous rule.
+    */
   
   button:-moz-focusring,
   [type="button"]:-moz-focusring,
