@@ -7,7 +7,7 @@ body {
 /*start home page */
 .Home-page{
     min-height: 100vh;
-    background-image: url('../imgs/747506.jpg');
+    background-image: url('08.jpg');
     background-size: cover;
     position: relative;
 
